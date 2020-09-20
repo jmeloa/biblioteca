@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  database: stores_devise_development
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: admin
+
+test:
+  adapter: postgresql
+  database: stores_devise_test
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: admin
+production:
+  adapter: postgresql
+  database: stores_devise_production
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: admin
